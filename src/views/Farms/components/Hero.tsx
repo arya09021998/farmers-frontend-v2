@@ -55,7 +55,7 @@ const Hero = ({tokenMode,dividendsMode}) => {
             TranslateString(999, 'TELEGRAM GROUP MASS REPORTED, GET IN THE NEW ONE: @FarmersOnly2')} {/* 'Yield Farming starts on Sep 28, 8:00PM UTC' */}
         </Heading>
         <Heading as="h1" size="lg" mb="12px" color="#FFFFFF" >{
-            TranslateString(999, 'Yield Farming starts on Sep 29, 8:00PM UTC*')} {/* 'Yield Farming starts on Sep 28, 8:00PM UTC' */}
+            TranslateString(999, 'Yield Farming starts on Sep 30, 8:00PM UTC*')} {/* 'Yield Farming starts on Sep 28, 8:00PM UTC' */}
         </Heading>
         <Text color="#FFFFFF" >{TranslateString(999, '*Start date could be slightly modified to align with AAVE launch on Avalanche (check docs to see why)')} {/* 'But you can already stake your tokens! (Yield Farming start could be slightly modified due to AAVE launch on AVAX)' */}
         </Text>

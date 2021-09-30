@@ -96,7 +96,7 @@ const config: MenuEntry[] = [
     icon: 'AuditIcon',
     items: [
       {
-        label: 'RugDoc Review',
+        label: 'RugDoc Review + KYC',
         href: 'https://rugdoc.io/project/farmersonly-2/',
       },
       {

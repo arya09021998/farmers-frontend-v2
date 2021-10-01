@@ -100,6 +100,10 @@ const config: MenuEntry[] = [
         href: 'https://rugdoc.io/project/farmersonly-2/',
       },
       {
+        label: 'Paladin Audit',
+        href: 'https://paladinsec.co/projects/farmersonly/',
+      },
+      {
         label: 'DappRadar Listing',
         href: 'https://dappradar.com/avalanche/defi/farmersonly-finance',
       },

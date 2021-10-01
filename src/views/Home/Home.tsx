@@ -13,13 +13,32 @@ import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 
+const BadgeFlex = styled.div`
+align-items: center;
+display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+`
+
+const RDBadge = styled.a`
+
+`
+
+const RDLiq = styled.a`
+
+`
+
+const KYC = styled.a`
+
+`
+
 const Hero = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  margin-bottom: 32px;
+  margin-bottom: 15px;
   padding-top: 116px;
   text-align: center;
   position: relative;
@@ -36,7 +55,7 @@ const Hero = styled.div`
     height: 100%;
     z-index: -1;
     opacity: 0.1;
-    background-image: url('/images/egg/3.png');
+    background-image: url('/images/egg/vaults-hero.png');
     background-repeat: no-repeat;
     background-position: top center;    
     border-radius: 30px;
@@ -114,6 +133,11 @@ const Home: React.FC = () => {
         </Heading>
         <Text color="#FFFFFF">{TranslateString(999, 'Avalanche based AMM and Yield Farm protocol. Non-farmers just don't get it!™️')}</Text> */}
       </Hero>
+      <BadgeFlex>
+        <RDBadge target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/rug-badge.png" alt="rugdoc badge" /></RDBadge>
+        <RDLiq target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/liq-badge.png" alt="rugdoc liq locked" /></RDLiq>
+        <KYC target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/kyc-badge.png" alt="rugdoc kyc" /></KYC>
+        </BadgeFlex>
       <div>
         <Cards>
           <FarmStakingCard />

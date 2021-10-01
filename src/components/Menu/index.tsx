@@ -54,10 +54,10 @@ const Menu = (props) => {
       priceLink="https://info.pangolin.exchange/#/pair/0xc6a9dc8569ada7626b77e04445e93227d0790478" // XXXXCORN
       {...props}
     />
-    <RDBadge  target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="rugdoc badge" /></RDBadge>
+    {/* <RDBadge  target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="rugdoc badge" /></RDBadge>
     <RDLiq  target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={218} src="https://farmersonly.farm/images/egg/RugDoc-LiqLock-Badge.png" alt="rugdoc liq locked" /></RDLiq>
 	<KYC  target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={218} src="https://farmersonly.farm/images/egg/kyc.png" alt="rugdoc kyc" /></KYC>
-    <JSBadge  target="_blank" rel="noreferrer" href="https://jagosafer.io/farmersonly"><img width={208} src="https://jagosafer.io/flags/greenflag.svg" alt="jago badge" /></JSBadge>      
+    <JSBadge  target="_blank" rel="noreferrer" href="https://jagosafer.io/farmersonly"><img width={208} src="https://jagosafer.io/flags/greenflag.svg" alt="jago badge" /></JSBadge>    */}  
 </>
   )
 }

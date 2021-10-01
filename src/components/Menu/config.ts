@@ -57,10 +57,10 @@ const config: MenuEntry[] = [
         label: 'ChartEx',
         href: 'https://chartex.pro/?symbol=AVAX_PANGOLIN%3ACORN.0x66bA9619ca10bf77176AfECc2486344Fa9Bc65B3&interval=60&theme=dark', // XXXXCORN
       },
-      {
+      /* {
         label: 'DexGuru',
         href: 'https://dex.guru/token/0xFcA54c64BC44ce2E72d621B6Ed34981e53B66CaE-avalanche', // XXXXCORN
-      },
+      }, */
     ],
   },
   {

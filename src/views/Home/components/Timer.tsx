@@ -43,7 +43,7 @@ const TimerBox = styled.div`
 const Timer = () => {
 
   const stratTime = Date.now() / 1000; // use UNIX timestamp in seconds
-  const endTime = 1633118400; // use UNIX timestamp in seconds CORN MC START: 1633118400
+  const endTime = 1633204800; // use UNIX timestamp in seconds CORN MC START: 1633204800
 
   const remainingTime = endTime - stratTime;
   const days = Math.ceil(remainingTime / daySeconds);

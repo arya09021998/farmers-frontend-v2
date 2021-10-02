@@ -20,18 +20,6 @@ display: flex;
   margin-bottom: 10px;
 `
 
-const RDBadge = styled.a`
-
-`
-
-const RDLiq = styled.a`
-
-`
-
-const KYC = styled.a`
-
-`
-
 const Hero = styled.div`
   align-items: center;
   display: flex;
@@ -134,10 +122,11 @@ const Home: React.FC = () => {
         <Text color="#FFFFFF">{TranslateString(999, 'Avalanche based AMM and Yield Farm protocol. Non-farmers just don't get it!™️')}</Text> */}
       </Hero>
       <BadgeFlex>
-        <RDBadge target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/rug-badge.png" alt="rugdoc badge" /></RDBadge>
-        <RDLiq target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/liq-badge.png" alt="rugdoc liq locked" /></RDLiq>
-        <KYC target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/kyc-badge.png" alt="rugdoc kyc" /></KYC>
-        </BadgeFlex>
+        <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/rug-badge.png" alt="rugdoc badge" /></a>
+        <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/liq-badge.png" alt="rugdoc liq locked" /></a>
+        <a target="_blank" rel="noreferrer" href="https://rugdoc.io/project/farmersonly-2/"><img width={250} src="https://farmersonly.farm/images/egg/kyc-badge.png" alt="rugdoc kyc" /></a>
+        <a target="_blank" rel="noreferrer" href="https://paladinsec.co/projects/farmersonly/"><img width={250} src="https://farmersonly.farm/images/egg/pala-badge.png" alt="rugdoc kyc" /></a>
+      </BadgeFlex>
       <div>
         <Cards>
           <FarmStakingCard />
